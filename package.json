@@ -22,7 +22,6 @@
     "babel-loader": "^5.0.0",
     "css-loader": "^0.10.1",
     "esprima-fb": "^15001.1.0-dev-harmony-fb",
-    "extract-text-webpack-plugin": "^0.6.0",
     "file-loader": "^0.8.1",
     "html-loader": "^0.2.3",
     "jscs": "^1.12.0",
@@ -31,8 +30,7 @@
     "stylus-loader": "^1.1.0",
     "url-loader": "^0.5.5",
     "webpack": "^1.7.3",
-    "webpack-dev-server": "^1.8.2",
-    "webpack-path-rewriter": "^1.1.2"
+    "webpack-dev-server": "^1.8.2"
   },
   "dependencies": {}
 }
