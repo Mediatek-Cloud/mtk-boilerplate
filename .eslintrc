@@ -9,7 +9,7 @@
       "STRING": true
    },
    "rules": {
-      "handle-callback-err": [0, "^(err|error|anySpecificError)$" ],
+      "handle-callback-err": [2, "^(error|anySpecificError)$" ],
       "quotes": [1, "single"],
       "strict": 0,
       "no-underscore-dangle": 0,
