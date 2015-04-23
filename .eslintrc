@@ -6,6 +6,7 @@
   },
   "rules": {
     "quotes": [1, "single"],
+    "handle-callback-err": [0, "^(err|error|anySpecificError)$" ],
     "strict": 0,
     "no-underscore-dangle": 0,
     "no-unused-vars": 0,
