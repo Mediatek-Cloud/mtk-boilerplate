@@ -1,0 +1,38 @@
+{
+  "name": "mcs-landingpage",
+  "version": "1.0.0",
+  "description": "This is the MCS landing page.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --ext .js,.jsx ./ && echo 'lint succesed'",
+    "jscs": "jscs ./",
+    "clean": "rm -r -f build/*",
+    "build": "npm run clean && webpack",
+    "watch": "webpack-dev-server --colors --inline --hot --content-base ./build",
+    "start": "webpack-dev-server --content-base ./build"
+  },
+  "pre-commit": [
+    "lint",
+    "jscs"
+  ],
+  "author": "MediaTek",
+  "devDependencies": {
+    "autoprefixer-loader": "^1.2.0",
+    "babel-core": "^5.1.11",
+    "babel-loader": "^5.0.0",
+    "css-loader": "^0.10.1",
+    "esprima-fb": "^15001.1.0-dev-harmony-fb",
+    "extract-text-webpack-plugin": "^0.6.0",
+    "file-loader": "^0.8.1",
+    "html-loader": "^0.2.3",
+    "jscs": "^1.12.0",
+    "pre-commit": "Mediatek-Cloud/pre-commit",
+    "style-loader": "^0.11.0",
+    "stylus-loader": "^1.1.0",
+    "url-loader": "^0.5.5",
+    "webpack": "^1.7.3",
+    "webpack-dev-server": "^1.8.2",
+    "webpack-path-rewriter": "^1.1.2"
+  },
+  "dependencies": {}
+}
