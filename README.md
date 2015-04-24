@@ -13,5 +13,5 @@ cp mtk-boilerplate/.eslintrc         path/to/your/repo/.eslintrc
 cp mtk-boilerplate/.eslintignore     path/to/your/repo/.eslintignore
 cp mtk-boilerplate/webpack.config.js path/to/your/repo/webpack.config.js
 cp mtk-boilerplate/package.json      path/to/your/repo/package.json
-cp mtk-boilerplate/README.md         path/to/your/repo/README.md
+cp mtk-boilerplate/.editorconfig     path/to/your/repo/.editorconfig
 ```
