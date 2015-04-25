@@ -6,7 +6,8 @@
   },
   "globals": {
     "__": true,
-    "STRING": true
+    "STRING": true,
+    "jest": true
   },
   "rules": {
     "handle-callback-err": [
