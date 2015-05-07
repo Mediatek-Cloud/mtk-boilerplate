@@ -3,13 +3,31 @@
   "version": "1.0.0",
   "description": "This is the MCS landing page.",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "BABEL_JEST_STAGE=0 jest",
     "lint": "eslint --ext .js,.jsx ./ && echo 'lint succesed'",
     "jscs": "jscs ./",
     "clean": "rm -r -f build/*",
     "build": "npm run clean && webpack",
     "watch": "webpack-dev-server --colors --inline --hot --content-base ./build",
     "start": "webpack-dev-server --content-base ./build"
+  },
+  "jest": {
+    "scriptPreprocessor": "<rootDir>/node_modules/babel-jest",
+    "testPathDirs": [
+      "./src/app/components/__tests__"
+    ],
+    "testFileExtensions": [
+      "jsx",
+      "js"
+    ],
+    "moduleFileExtensions": [
+      "js",
+      "json",
+      "jsx"
+    ],
+    "unmockedModulePathPatterns": [
+      "<rootDir>/node_modules/react"
+    ]
   },
   "pre-commit": [
     "lint",
@@ -20,12 +38,14 @@
     "autoprefixer-loader": "^1.2.0",
     "babel-core": "^5.1.11",
     "babel-eslint": "^3.0.1",
+    "babel-jest": "^5.2.0",
     "babel-loader": "^5.0.0",
     "css-loader": "^0.10.1",
     "eslint": "^0.20.0",
     "esprima-fb": "^15001.1.0-dev-harmony-fb",
     "file-loader": "^0.8.1",
     "html-loader": "^0.2.3",
+    "jest-cli": "^0.4.1",
     "jscs": "^1.12.0",
     "pre-commit": "Mediatek-Cloud/pre-commit",
     "style-loader": "^0.11.0",
