@@ -1,2 +1,3 @@
-import config from './config/webpack';
-export default config;
+require('babel/register');
+var config = require('./config/webpack');
+module.exports = config;

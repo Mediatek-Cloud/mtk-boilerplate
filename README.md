@@ -1,17 +1,46 @@
 # MTK Boilerplate
 
-This boilerplate is for ES6 and React.
+This boilerplate is a fork from [https://github.com/RisingStack/react-way-getting-started]()
 
-## TO Use
+-----------
 
+# The React Way: Getting Started
+
+[![Build Status](https://travis-ci.org/RisingStack/react-way-getting-started.svg?branch=master)](https://travis-ci.org/RisingStack/react-way-getting-started)
+
+**Related blog post:**
+http://blog.risingstack.com/the-react-way-getting-started-tutorial/
+
+Getting started with React and ES6
+
+Used technologies:
+
+- React
+- ES6
+- Webpack
+- Babel
+- Jest
+
+## How to start
+
+Run:
 ```
-git clone https://github.com/Mediatek-Cloud/mtk-boilerplate
-# Then copy to your folder
-cp mtk-boilerplate/.gitignore        path/to/your/repo/.gitignore
-cp mtk-boilerplate/.jscsrc           path/to/your/repo/.jscsrc
-cp mtk-boilerplate/.eslintrc         path/to/your/repo/.eslintrc
-cp mtk-boilerplate/.eslintignore     path/to/your/repo/.eslintignore
-cp mtk-boilerplate/webpack.config.js path/to/your/repo/webpack.config.js
-cp mtk-boilerplate/package.json      path/to/your/repo/package.json
-cp mtk-boilerplate/.editorconfig     path/to/your/repo/.editorconfig
+npm install
+npm start
 ```
+
+Check your http://localhost:3000/ or  `open http://localhost:3000/`
+
+## How to test
+
+`npm test`
+
+## How to start code
+
+Run:
+`npm run webpack-watch`
+
+## Preview
+
+![screen shot 2015-04-11 at 11 48 41](https://cloud.githubusercontent.com/assets/1764512/7101012/cf4334fc-e040-11e4-9f28-aed24d68e46a.png)
+
