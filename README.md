@@ -1,6 +1,6 @@
 # MTK Boilerplate
 
-This boilerplate is a fork from [https://github.com/RisingStack/react-way-getting-started]()
+This boilerplate is a fork from [https://github.com/RisingStack/react-way-getting-started](https://github.com/RisingStack/react-way-getting-started)
 
 -----------
 
@@ -24,12 +24,13 @@ Used technologies:
 ## How to start
 
 Run:
+
 ```
 npm install
 npm start
 ```
 
-Check your http://localhost:3000/ or  `open http://localhost:3000/`
+Check your http://localhost:3000/ or  open http://localhost:3000/
 
 ## How to test
 
@@ -37,7 +38,6 @@ Check your http://localhost:3000/ or  `open http://localhost:3000/`
 
 ## How to start code
 
-Run:
 `npm run webpack-watch`
 
 ## Preview
