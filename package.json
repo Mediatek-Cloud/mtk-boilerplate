@@ -53,6 +53,8 @@
     "babel-loader": "^5.0.0",
     "css-loader": "^0.10.1",
     "eslint": "^0.20.0",
+    "eslint-plugin-babel": "^1.0.0",
+    "eslint-plugin-react": "^2.6.4",
     "esprima-fb": "^15001.1.0-dev-harmony-fb",
     "file-loader": "^0.8.1",
     "html-loader": "^0.2.3",
