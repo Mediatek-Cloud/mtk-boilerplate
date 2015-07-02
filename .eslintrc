@@ -6,34 +6,40 @@
     "jasmine": true
   },
   "globals": {
-    "__": true,
-    "STRING": true,
     "jest": true
   },
+  "plugins": [
+    "react",
+    "babel"
+  ],
   "rules": {
-    "handle-callback-err": [
-      2,
-      "^(error|anySpecificError)$"
-    ],
-    "quotes": [
-      1,
-      "single"
-    ],
+    "quotes": [1, "single"],
     "strict": 0,
     "no-underscore-dangle": 0,
-    "no-unused-vars": 0,
-    "no-multi-spaces": 0,
-    "key-spacing": 0,
-    "no-return-assign": 0,
-    "consistent-return": 0,
-    "no-shadow": 0,
     "no-comma-dangle": 0,
     "no-use-before-define": 0,
-    "no-empty": 0,
-    "new-cap": true,
-    "dot-notation": 0,
-    "new-parens": 0,
-    "camelcase": false,
-    "no-cond-assign": 0
+    "new-cap": 0,
+    "react/display-name": 0,
+    "react/jsx-boolean-value": 1,
+    "react/jsx-no-undef": 1,
+    "react/jsx-quotes": [1, "single"],
+    "react/jsx-sort-prop-types": 0,
+    "react/jsx-sort-props": 0,
+    "react/jsx-uses-react": 1,
+    "react/jsx-uses-vars": 1,
+    "react/no-did-mount-set-state": 1,
+    "react/no-did-update-set-state": 1,
+    "react/no-multi-comp": 1,
+    "react/no-unknown-property": 1,
+    "react/prop-types": 1,
+    "react/react-in-jsx-scope": 1,
+    "react/require-extension": 1,
+    "react/self-closing-comp": 1,
+    "react/sort-comp": 0,
+    "react/wrap-multilines": 1,
+    "babel/object-shorthand": 1,
+    "babel/generator-star": 1,
+    "babel/generator-star-spacing": 1,
+    "babel/new-cap": 0
   }
 }
