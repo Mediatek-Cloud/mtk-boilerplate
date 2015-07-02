@@ -32,8 +32,7 @@ class App {
     // render to DOM
     if (element) {
       debug('render to DOM');
-      React.render(appRootElement, element);
-      return;
+      return React.render(appRootElement, element);
     }
 
     // render to string
