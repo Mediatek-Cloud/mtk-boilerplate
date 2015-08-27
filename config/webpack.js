@@ -20,7 +20,7 @@ const config = {
   module: {
     loaders: [
       { test: /\.html?$/, loader: 'html'},
-      { test: /\.jsx?$/, exclude: /node_modules/, loaders: ['react-hot', 'babel?optional=es7.objectRestSpread'] },
+      { test: /\.jsx?$/, exclude: /node_modules/, loaders: ['react-hot', 'babel'] },
       { test: /\.styl$/, loaders: STYLUS_LOADER},
       { test: /\.json$/, loaders: ['json'] }
     ]
